@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A6E2B4BBB1F30701AE23DD4B /* Pods_realmTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CD437B33F2164C13B5CBE6 /* Pods_realmTest.framework */; };
+		ED17E54E201A397A0001D098 /* CurrentDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17E54D201A397A0001D098 /* CurrentDate.swift */; };
 		ED1B98701FF7C456005A6B3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1B986F1FF7C456005A6B3E /* AppDelegate.swift */; };
 		ED1B98721FF7C456005A6B3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1B98711FF7C456005A6B3E /* ViewController.swift */; };
 		ED1B98771FF7C456005A6B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1B98761FF7C456005A6B3E /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 		92154872298E07C419A5246D /* Pods-realmTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-realmTest/Pods-realmTest.release.xcconfig"; sourceTree = "<group>"; };
 		A7CD437B33F2164C13B5CBE6 /* Pods_realmTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_realmTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28F24CB8627C91589A38FC7 /* Pods-realmTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-realmTest/Pods-realmTest.debug.xcconfig"; sourceTree = "<group>"; };
+		ED17E54D201A397A0001D098 /* CurrentDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDate.swift; sourceTree = "<group>"; };
 		ED1B986C1FF7C456005A6B3E /* realmTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realmTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1B986F1FF7C456005A6B3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED1B98711FF7C456005A6B3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				ED1B98761FF7C456005A6B3E /* Assets.xcassets */,
 				ED1B98781FF7C456005A6B3E /* LaunchScreen.storyboard */,
 				ED1B987B1FF7C456005A6B3E /* Info.plist */,
+				ED17E54D201A397A0001D098 /* CurrentDate.swift */,
 			);
 			path = realmTest;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED1B98721FF7C456005A6B3E /* ViewController.swift in Sources */,
+				ED17E54E201A397A0001D098 /* CurrentDate.swift in Sources */,
 				ED1B98701FF7C456005A6B3E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9X444WKYY5;
 				INFOPLIST_FILE = realmTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.skanderjabouzi.realmTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -372,6 +377,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9X444WKYY5;
 				INFOPLIST_FILE = realmTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.skanderjabouzi.realmTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
